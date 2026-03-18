@@ -12,7 +12,7 @@ import java.util.Objects;
 @Service
 
 public class AppleService {
-
+    private final "";
     private final AppleProductRepository appleProductRepository;
     private final AppleMapper appleMapper;
 
