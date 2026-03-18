@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form th:action="@{'/apple'}" method="post">
+
+        <input type="text" name="name">
+        <input type="text" name="description">
+        <input type="number" name="price">
+
+        <button type="submit">add</button>
+
+    </form>
+
+    <h1 th:text="${overAll}"></h1>
+
+</body>
+</html>
